@@ -1,5 +1,5 @@
 <?php
 
-    $name = "James";
+    $name = ["James", "Don", "Bob"];
 
-    echo "Hello, $name, {$name}, ". $name . '$name';
+    echo "Hello, $name[0], {$name[1]}, ". $name[2];
