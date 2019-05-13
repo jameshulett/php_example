@@ -1,11 +1,5 @@
 <?php
 
-    $name = [
-        "Presenter" => "James",
-        "Host" => "Don",
-        "Uncle" => "Bob"
-    ];
+    $name = $_GET['name'];
 
-    foreach($name as $key => $value) {
-        echo "$key: $value, ";
-    }
+    echo "Name in URL: $name";
