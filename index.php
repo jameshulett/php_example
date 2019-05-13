@@ -1,3 +1,5 @@
 <?php
 
-    echo "Hello, World";
+    $name = "James";
+
+    echo "Hello, $name, {$name}, ". $name . '$name';
