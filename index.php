@@ -1,5 +1,9 @@
 <?php
 
-    $name = ["James", "Don", "Bob"];
+    $name = [
+        "Presenter" => "James",
+        "Host" => "Don",
+        "Uncle" => "Bob"
+    ];
 
-    echo "Hello, $name[0], {$name[1]}, ". $name[2];
+    echo "Hello, {$name['Presenter']}, {$name['Host']}, ". $name['Uncle'];
