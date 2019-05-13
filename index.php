@@ -6,4 +6,6 @@
         "Uncle" => "Bob"
     ];
 
-    echo "Hello, {$name['Presenter']}, {$name['Host']}, ". $name['Uncle'];
+    foreach($name as $key => $value) {
+        echo "$key: $value, ";
+    }
