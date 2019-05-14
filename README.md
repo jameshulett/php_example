@@ -34,7 +34,7 @@ Tutorial application for PHP users' group
             - URL manipulation
             - anchor in anchor
             - PHP `filter_*` functions
-            - `htmlspecialchars()`
+            - `htmlspecialchars()` is not sufficient
 - PSR-4 and Namespaces
     - Directory to Namespace mapping
     - composer vendor directory
@@ -43,6 +43,7 @@ Tutorial application for PHP users' group
         - `psr-4` key and `src/` directory
         - `require` and `require-dev`
 - Separation of Concerns
+    - View and logic separation
     - Move HTTP related function to proper namespace/directory
     - Domain vs. protocol
 - MySQL Schema

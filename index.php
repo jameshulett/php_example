@@ -1,12 +1,6 @@
 <?php
-    function handleName() {
-        $name = filter_var($_REQUEST['who'], FILTER_SANITIZE_STRING);
-        if ($name) {
-            return $name;
-        } else {
-            return 'No one you know...';
-        }
-    }
+
+    require './src/PHPGroup/HTTP/HandleName.php';
 
     $presets = [
         'James',
@@ -32,7 +26,7 @@
                 </li>
             <?php endforeach; ?>
         </ul>
-        <h2><?= 'Name from form: '. handleName() ?></h2>
+        <h2><?= 'Name from form: '. PHPGroup\HTTP\handleName() ?></h2>
         <form method="POST">
             <input type="text" name="who" />
             <input type="submit" />
