@@ -28,9 +28,10 @@ Tutorial application for PHP users' group
         - `?>`
         - `foreach` in template syntax
         - HTML Form
-            - `$_POST` example
-            - `$_GET` example
+            - Form using `$_POST`
+            - Presets using `$_GET`
         - Injection examples
+            - URL manipulation
             - anchor in anchor
             - PHP `filter_*` functions
             - `htmlspecialchars()`
