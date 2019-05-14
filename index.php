@@ -1,4 +1,5 @@
 <?php
+    namespace PHPGroup\HTTP;
 
     require './src/PHPGroup/HTTP/HandleName.php';
 
@@ -26,7 +27,7 @@
                 </li>
             <?php endforeach; ?>
         </ul>
-        <h2><?= 'Name from form: '. PHPGroup\HTTP\handleName() ?></h2>
+        <h2><?= 'Name from form: '. handleName() ?></h2>
         <form method="POST">
             <input type="text" name="who" />
             <input type="submit" />
