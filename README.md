@@ -38,10 +38,10 @@ Tutorial application for PHP users' group
 - PSR-4 and Namespaces
     - Directory to Namespace mapping
     - composer vendor directory
-    - Auto loading and `dump-autoload`
     - composer.json
         - `psr-4` key and `src/` directory
         - `require` and `require-dev`
+    - Auto loading and `dump-autoload`
 - Separation of Concerns
     - View and logic separation
     - Move HTTP related function to proper namespace/directory
