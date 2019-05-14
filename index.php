@@ -1,6 +1,6 @@
 <?php
     function handleName() {
-        $name = $_REQUEST['who'];
+        $name = filter_var($_REQUEST['who'], FILTER_SANITIZE_STRING);
         if ($name) {
             return $name;
         } else {
