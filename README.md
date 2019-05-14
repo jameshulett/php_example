@@ -15,6 +15,8 @@ Tutorial application for PHP users' group
         - foreach loop
     - Acquire name from HTTP
         - URL with `$_GET`
+            - Form
+            - Conditionals
         - `$_POST`
         - `$_REQUEST`
     - Functions

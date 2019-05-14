@@ -1,5 +1,12 @@
 <?php
 
-    $name = $_GET['name'];
+    $name = $_GET['who'];
 
-    echo "Name in URL: $name";
+    if($name) {
+        echo "Name in URL: $name";
+    }
+?>
+<form>
+    <input type="text" name="who" />
+    <input type="submit" />
+</form>
