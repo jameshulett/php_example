@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Name Form</title>
-    </head>
-    <body>
-
 <?php
     function handleName() {
         $name = $_REQUEST['who'];
@@ -15,8 +7,16 @@
             return 'No one you know...';
         }
     }
-    echo 'Name from form: ' . handleName();
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Name Form</title>
+    </head>
+    <body>
+        <h2><?= 'Name from form: '. handleName() ?></h2>
         <form method="POST">
             <input type="text" name="who" />
             <input type="submit" />
