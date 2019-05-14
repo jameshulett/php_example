@@ -1,6 +1,6 @@
 <?php
 
-    $name = $_POST['who'];
+    $name = $_REQUEST['who'];
 
     if($name) {
         echo "Name in URL: $name";
