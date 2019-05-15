@@ -3,6 +3,8 @@
 
     require __DIR__ . '/vendor/autoload.php';
 
+    use PHPGroup\HTTP\HandleName;
+
     $presets = [
         'James',
         'Don',
@@ -27,7 +29,7 @@
                 </li>
             <?php endforeach; ?>
         </ul>
-        <h2><?= 'Name from form: '. handleName() ?></h2>
+        <h2><?= 'Name from form: '. HandleName::handleName() ?></h2>
         <form method="POST">
             <input type="text" name="who" />
             <input type="submit" />
