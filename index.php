@@ -1,7 +1,7 @@
 <?php
     namespace PHPGroup\HTTP;
 
-    require './src/PHPGroup/HTTP/HandleName.php';
+    require __DIR__ . '/vendor/autoload.php';
 
     $presets = [
         'James',

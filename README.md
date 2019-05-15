@@ -42,6 +42,8 @@ Tutorial application for PHP users' group
         - `psr-4` key and `src/` directory
         - `require` and `require-dev`
     - Auto loading and `dump-autoload`
+        - `class` requirement
+        - static method for `handleName()`
 - Separation of Concerns
     - View and logic separation
     - Move HTTP related function to proper namespace/directory
