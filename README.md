@@ -48,7 +48,7 @@ Tutorial application for PHP users' group
     - View and logic separation
     - Move HTTP related function to proper namespace/directory
     - Domain vs. protocol
-- MySQL Schema
+- Database Schema
     - phpMyAdmin
     - SQL
 - PHP Data Objects (PDO)
