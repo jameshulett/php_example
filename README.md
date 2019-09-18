@@ -53,7 +53,7 @@ Tutorial application for PHP users' group
     - SQL
 - PHP Data Objects (PDO)
     - DSN (Data Source Name)
-        - protocol (mysql:)
+        - protocol (mysql: or sqlite:)
         - host (host=localhost)
         - database name (dbname=idk)
     - Exceptions
